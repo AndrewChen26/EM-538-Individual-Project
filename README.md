@@ -7,7 +7,7 @@ Project Objective:
 Predict the Amazon employee's card access using historical data.
 
 Scoring Criteria:
-We use the NPV score as our primary scoring method since avoiding false positives is more critical than avoiding false negatives.
+We use the NPV (Negative Predictive Value) score as our primary scoring method because avoiding false positives is our top priority. Granting access to unauthorized individuals poses a greater risk than mistakenly denying access to the right people.
 
 Method:
 We decide to use the random forest model.
