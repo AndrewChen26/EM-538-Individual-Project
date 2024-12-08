@@ -7,10 +7,10 @@ Project Objective:
 Predict the Amazon employee's card access using historical data.
 
 Scoring Criteria:
-We use recall score as our primary scoring method since the false positive is more critical than false negative.
+We use the NPV score as our primary scoring method since avoiding false positives is more critical than avoiding false negatives.
 
 Method:
-We decide to use decision tree model.
+We decide to use the random forest model.
 
 Result:
-We achieved 94% score!
+We achieved a 94% accuracy score, an 82.7 NPV score!
